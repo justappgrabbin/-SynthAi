@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { MRNNEngine } from './engine/mrnn-core';
-import { AutopoieticOS } from './engine/autopoietic-os';
-import { IngestionSystem } from './engine/ingestion-system';
-import { UserDiscernmentEngine } from './engine/user-discernment';
-import { PersonalAlly } from './engine/life-purpose-alignment';
-import { MobileMCPConnector } from './engine/mobile-mcp-connector';
-import { MorphVisualizer } from './visualizer/morph-visualizer';
-import { AppTray } from './components/AppTray';
+import { MRNNEngine } from './Engine/mrnn-core';
+import { AutopoieticOS } from './Engine/autopoietic-os';
+import { IngestionSystem } from './Engine/ingestion-system';
+import { UserDiscernmentEngine } from './Engine/user-discernment';
+import { PersonalAlly } from './Engine/life-purpose-alignment';
+import { MobileMCPConnector } from './Engine/mobile-mcp-connector';
+import { MorphVisualizer } from './Visualizer/morph-visualizer';
+import { AppTray } from './Components/AppTray';
 
 const SERVER_URL = import.meta.env.VITE_SYNTHIA_SERVER || 'https://synthia-server.onrender.com';
 const HF_USER = import.meta.env.VITE_HF_USERNAME || 'stellarproximology';
