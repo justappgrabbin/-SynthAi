@@ -1,7 +1,7 @@
 // Morph Visualizer - Teal/Purple, message-passing graph
 
 import React, { useEffect, useRef, useState } from 'react';
-import { MRNNEngine, MRNNNode } from '../engine/mrnn-core';
+import { MRNNEngine, MRNNNode } from '../Engine/mrnn-core';
 
 interface Props {
   engine: MRNNEngine;
